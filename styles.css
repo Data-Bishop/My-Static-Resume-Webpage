@@ -1,0 +1,86 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #343a40;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #17a2b8;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #17a2b8;
+}
+
+#contact-info {
+    margin: 0.5rem 0;
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+.resume-section {
+    margin-top: 1.5rem;
+}
+
+h2 {
+    border-bottom: 2px solid #17a2b8;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+    font-size: 1.5rem;
+}
+
+.job {
+    margin-bottom: 1.5rem;
+}
+
+.job h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #17a2b8;
+}
+
+.job p {
+    margin: 0.25rem 0;
+    color: #6c757d;
+}
+
+ul {
+    padding-left: 20px;
+    color: #6c757d;
+}
+
+li {
+    list-style-type: disc;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #17a2b8;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
