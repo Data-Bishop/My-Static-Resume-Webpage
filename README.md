@@ -18,7 +18,7 @@ This repository contains the source code for a static resume webpage. The webpag
 
 ### Deployment
 
-This project was part of the Stage 0 task of the HNG Internship for the DevOps track. The webpage was deployed onto an AWS EC2 instance and served using NGINX.
+This project was part of the Stage 0 task of the HNG 11 Internship for the DevOps track. The webpage was deployed onto an AWS EC2 instance and served using NGINX.
 
 ## Getting Started
 
@@ -46,7 +46,7 @@ Make sure you have the following installed:
 
 ### Deployment Instructions
 
-To deploy this static webpage on AWS EC2 and serve it using NGINX, follow these steps:
+To deploy this static webpage on AWS EC2 and serve it using NGINX, follow these steps (An Ubuntu Image is being used for this guide):
 
 1. **Launch an EC2 Instance:**
    - Choose Amazon Linux 2 AMI.
@@ -59,8 +59,8 @@ To deploy this static webpage on AWS EC2 and serve it using NGINX, follow these 
 
 3. **Update and Install NGINX:**
    ```bash
-   sudo yum update -y
-   sudo yum install nginx -y
+   sudo apt update && up sudo apt upgrade -y
+   sudo apt install nginx -y
    sudo systemctl start nginx
    sudo systemctl enable nginx
    ```
