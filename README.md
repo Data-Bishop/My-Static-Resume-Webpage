@@ -1,5 +1,9 @@
 # Resume Webpage
 
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+
 ## Description
 
 This repository contains the source code for a static resume webpage. The webpage is built using HTML, CSS, and JavaScript and is designed to showcase personal information, work experience, education, skills, and projects in a clean and professional format.
